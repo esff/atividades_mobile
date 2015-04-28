@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "https://phonegap.com/ns/1.0"
+        id          = "com.herokuapp.intense-tundra-2842"
+        versionCode = "8"
+        version     = "1.0.0" >
+    <name>
+        Atividades
+    </name>
+    <description>
+        Atividades para phonegap
+    </description>
+    <author href="https://github.com/esff/atividades" email="olimmmo@esffranco.edu.pt">
+        Marco Olim
+    </author>
+    <gap:platform name="android" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="InAppBrowserStorageEnabled" value="true"/>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
